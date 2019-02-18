@@ -41,10 +41,10 @@ import org.joda.time.Instant;
 import com.google.gson.Gson;
 
 public class TaxiTripPipeline {
-//  private static final String INPUT_FILE = "gs://drivemode-taxi-trip/large_df.json";
+  private static final String INPUT_FILE = "gs://drivemode-taxi-trip/large_df.json";
 //  private static final String INPUT_FILE = "./raw-data/large_df.json";
-  private static final String INPUT_FILE = "./raw-data/chunk_3.json";
-  private static final String OUTPUT_FILE_PREFIX = "taxi_trip-3";
+//  private static final String INPUT_FILE = "./raw-data/chunk_4.json";
+  private static final String OUTPUT_FILE_PREFIX = "taxi_trip-1";
 //  private static final String INPUT_FILE = "./raw-data/large_df.zip";
 //  private static final String INPUT_FILE = "./raw-data/small_df.json";
 //   private static final String INPUT_FILE = "./chunk_2M";
